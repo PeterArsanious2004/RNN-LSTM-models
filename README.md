@@ -32,6 +32,18 @@ source .venv/bin/activate
 3. Run the cells from top to bottom.
 4. Review the training loss, F1 score, and confusion matrix.
 
+## Running the app
+
+Start the Streamlit application with:
+
+```bash
+streamlit run app.py
+```
+
+Use the `Classify` page to classify text or an uploaded image. Every classified
+input is stored in `database.db`. Open `View Database` from the sidebar at any
+time to see all stored inputs, their source, timestamps, and classifications.
+
 ## What the notebooks do
 
 Both notebooks follow the same text-classification workflow:
